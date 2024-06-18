@@ -1,33 +1,36 @@
 import cv2
 import numpy as np
 
-def convert_to_sparse(image):
-    sparse_rep = {}
-    rows, cols = image.shape
-    for i in range(rows):
-        for j in range(cols):
-            if image[i, j] != 0:
-                sparse_rep[(i, j)] = image[i, j]
-    return sparse_rep
+img1 = cv2.imread('uno.jpg', cv2.IMREAD_GRAYSCALE)
+img2 = cv2.imread('uno.jpg', cv2.IMREAD_GRAYSCALE)
 
-# Rutas a las imágenes
-image_path1 = 'imagen1.jpg'
-#image_path2 = 'imagen1.jpg'
+img1 = cv2.resize(img1, (100, 100))
+img2 = cv2.resize(img2, (100, 100))
 
-# Leer las imágenes en escala de grises
-img1 = cv2.imread(image_path1, cv2.IMREAD_GRAYSCALE)
-#img2 = cv2.imread(image_path2, cv2.IMREAD_GRAYSCALE)
+if img1 is not None and img2 is not None:
+    matriz = np.array(img1) + np.array(img2)
 
-# Verificar que las imágenes se hayan leído correctamente
-if img1 is None:
-    raise ValueError("No se pudieron leer una o ambas imágenes.")
+# Crear una representación dispersa de la matriz
+    valores = []
+    filas = []
+    columnas = []
 
-# Convertir las imágenes a representaciones dispersas
-sparse_img1 = convert_to_sparse(img1)
-#sparse_img2 = convert_to_sparse(img2)
+    for i in range(matriz.shape[0]):
+        for j in range(matriz.shape[1]):
+            if matriz[i, j] != 0:
+                valores.append(matriz[i, j])
+                filas.append(i)
+                columnas.append(j)
+    
+    print("filas:", filas,"\n")
+    print("columnas:", columnas,"\n")
+    print("valores:", valores,"\n")
 
-# Imprimir las matrices dispersas
-print("Matriz dispersa de la imagen 1:")
-print(sparse_img1)
-#print("\nMatriz dispersa de la imagen 2:")
-#print(sparse_img2)
+    matrizSparce=[
+        filas, 
+        columnas, 
+        valores
+    ]; 
+else: 
+    print("No se pueden procesar las imágenes porque una o ambas no se cargaron correctamente.")
+
