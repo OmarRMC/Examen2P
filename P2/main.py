@@ -10,7 +10,6 @@ img2 = cv2.resize(img2, (100, 100))
 if img1 is not None and img2 is not None:
     matriz = np.array(img1) + np.array(img2)
 
-# Crear una representación dispersa de la matriz
     valores = []
     filas = []
     columnas = []

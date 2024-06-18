@@ -10,3 +10,4 @@ O:\INF\INF-317\Examen2P\P1\ClassLibrary1\obj\Debug\net8.0\refint\ClassLibrary1.d
 O:\INF\INF-317\Examen2P\P1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.pdb
 O:\INF\INF-317\Examen2P\P1\ClassLibrary1\obj\Debug\net8.0\ref\ClassLibrary1.dll
 O:\INF\INF-317\Examen2P\P1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.csproj.AssemblyReference.cache
+O:\INF\INF-317\Examen2P\P1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.sourcelink.json
