@@ -6,8 +6,9 @@ from matplotlib import pyplot as plt
 imagen1 = cv2.imread('Telefono.png')
 imagen2 = cv2.imread('Ubicacion.png')
 
-if imagen1.shape != imagen2.shape:
-    raise ValueError("Las imágenes deben tener el mismo tamaño")
+imagen1 = cv2.resize(imagen1, (200, 200))
+imagen2 = cv2.resize(imagen2, (200, 200))
+
 
 suma = cv2.add(imagen1, imagen2)
 
