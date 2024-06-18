@@ -4,8 +4,8 @@ import numpy as np
 imagen1 = cv2.imread('uno.jpg', cv2.IMREAD_GRAYSCALE)
 imagen2 = cv2.imread('dos.jpg', cv2.IMREAD_GRAYSCALE)
 
-imagen1 = cv2.resize(imagen1, (100, 100))
-imagen2 = cv2.resize(imagen2, (100, 100))
+imagen1 = cv2.resize(imagen1, (90, 90))
+imagen2 = cv2.resize(imagen2, (90, 90))
 
 if imagen1 is not None and imagen2 is not None:
     matriz = np.array(imagen1) + np.array(imagen2)
@@ -21,15 +21,22 @@ if imagen1 is not None and imagen2 is not None:
                 filas.append(i)
                 columnas.append(j)
     
-    print("filas:", filas,"\n")
-    print("columnas:", columnas,"\n")
-    print("valores:", valores,"\n")
+    #print("filas:", filas,"\n")
+    #print("columnas:", columnas,"\n")
+    #print("valores:", valores,"\n")
 
-    matrizSparce=[
-        filas, 
-        columnas, 
-        valores
-    ]; 
+    tupla=list(zip(filas, columnas))
+    
+    posicion=0
+    for i in tupla: 
+        print(i," : ", valores[posicion],"\n")
+        posicion=posicion+1
+
+#    matrizSparce=[
+#        filas,
+#        columnas, 
+#        valores
+#    ]; 
 else: 
     print("No se encuentra la imagen ")
 
