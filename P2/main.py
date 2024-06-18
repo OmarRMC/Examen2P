@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 img1 = cv2.imread('uno.jpg', cv2.IMREAD_GRAYSCALE)
-img2 = cv2.imread('uno.jpg', cv2.IMREAD_GRAYSCALE)
+img2 = cv2.imread('dos.jpg', cv2.IMREAD_GRAYSCALE)
 
 img1 = cv2.resize(img1, (100, 100))
 img2 = cv2.resize(img2, (100, 100))
@@ -32,5 +32,5 @@ if img1 is not None and img2 is not None:
         valores
     ]; 
 else: 
-    print("No se pueden procesar las imágenes porque una o ambas no se cargaron correctamente.")
+    print("No se encuentra la imagen ")
 
