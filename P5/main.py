@@ -19,10 +19,13 @@ if __name__ == "__main__":
     # Crear matrices dispersas de ejemplo
     np.random.seed(42)
     tamaño = 1000
-    densidad = 0.01
+    densidad = 0.1
 
-    A = csr_matrix(np.random.rand(tamaño, tamaño)  < densidad, dtype=np.int8)
-    B = csr_matrix(np.random.rand(tamaño, tamaño)  < densidad, dtype=np.int8)
+    #A = csr_matrix(np.random.rand(tamaño, tamaño) *(np.random.rand(tamaño, tamaño)  < densidad), dtype=np.int8)
+    #B = csr_matrix(np.random.rand(tamaño, tamaño)*(np.random.rand(tamaño, tamaño)  < densidad),dtype=np.int8)
+
+    A = csr_matrix(np.random.rand(tamaño, tamaño)  < densidad,dtype=np.int8)
+    B = csr_matrix(np.random.rand(tamaño, tamaño)  < densidad,dtype=np.int8)
 
     C = mul_matriz(A, B)
     print(C)
