@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "O:\\INF\\INF-317\\Examen2P\\P1\\ClassLibrary1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80DB93C5-012A-4ABA-B917-04EAD4DACEC0}|..\\WinFormsApp1\\WinFormsApp1.csproj|o:\\inf\\inf-317\\examen2p\\p1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A421899-AF8A-47E4-B803-109A01F06A33}|ClassLibrary1.csproj|o:\\inf\\inf-317\\examen2p\\p1\\classlibrary1\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A421899-AF8A-47E4-B803-109A01F06A33}|ClassLibrary1.csproj|solutionrelative:conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80DB93C5-012A-4ABA-B917-04EAD4DACEC0}|..\\WinFormsApp1\\WinFormsApp1.csproj|o:\\inf\\inf-317\\examen2p\\p1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "O:\\INF\\INF-317\\Examen2P\\P1\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\WinFormsApp1\\Form1.cs",
+              "ToolTip": "O:\\INF\\INF-317\\Examen2P\\P1\\WinFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\WinFormsApp1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T10:03:59.744Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConexionDB.cs",
+              "DocumentMoniker": "O:\\INF\\INF-317\\Examen2P\\P1\\ClassLibrary1\\ConexionDB.cs",
+              "RelativeDocumentMoniker": "ConexionDB.cs",
+              "ToolTip": "O:\\INF\\INF-317\\Examen2P\\P1\\ClassLibrary1\\ConexionDB.cs",
+              "RelativeToolTip": "ConexionDB.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAcwE4AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T10:07:19.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "O:\\INF\\INF-317\\Examen2P\\P1\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\WinFormsApp1\\Form1.cs",
+              "ToolTip": "O:\\INF\\INF-317\\Examen2P\\P1\\WinFormsApp1\\Form1.cs",
+              "RelativeToolTip": "..\\WinFormsApp1\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T10:06:42.76Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

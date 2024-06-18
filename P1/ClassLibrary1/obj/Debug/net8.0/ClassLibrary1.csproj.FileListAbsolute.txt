@@ -1,0 +1,12 @@
+O:\INF\INF-317\Examen2P\P1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.deps.json
+O:\INF\INF-317\Examen2P\P1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll
+O:\INF\INF-317\Examen2P\P1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.pdb
+O:\INF\INF-317\Examen2P\P1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+O:\INF\INF-317\Examen2P\P1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfoInputs.cache
+O:\INF\INF-317\Examen2P\P1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfo.cs
+O:\INF\INF-317\Examen2P\P1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.csproj.CoreCompileInputs.cache
+O:\INF\INF-317\Examen2P\P1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.dll
+O:\INF\INF-317\Examen2P\P1\ClassLibrary1\obj\Debug\net8.0\refint\ClassLibrary1.dll
+O:\INF\INF-317\Examen2P\P1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.pdb
+O:\INF\INF-317\Examen2P\P1\ClassLibrary1\obj\Debug\net8.0\ref\ClassLibrary1.dll
+O:\INF\INF-317\Examen2P\P1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.csproj.AssemblyReference.cache
